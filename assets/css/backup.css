@@ -1,0 +1,214 @@
+
+
+
+
+/* social bar section */
+
+.social_section{
+    padding: 10px 0;
+
+    background-color: #28214c;
+    color: white;
+}
+
+
+
+
+.email a{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.social_icons span{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+}
+
+/* nav section */
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 18px 0;
+}
+nav .container{
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+    gap: 25px;
+    align-items: center;
+    padding: 0;
+}
+nav ul li{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    
+    font-family: 'Oxygen', sans-serif;
+}
+.nav_content{
+    gap: 10px;
+}
+
+.nav_button{
+    gap: 10px;
+}
+
+/* Hero Section */
+
+.hero_section{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://html.designingmedia.com/repay/assets/images/homebanner-bgshape.png);
+    
+    height: 100vh;
+    /* background-color:rgb(230, 230, 231); */
+}
+.hero_header-img{
+    width: 100%;
+    position: absolute;
+}
+
+.hero_section .container{
+    padding: 35px 0 0 ;
+    align-items: center;
+    height: 100%;
+}
+
+.hero_text{
+    max-width: 51%;
+}
+
+
+
+.hero_text h6{
+    margin-bottom: 13px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #00a9a4;
+    font-family: 'Oxygen', sans-serif;
+}
+.hero_text h1{
+    margin-bottom: 28px;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 400;
+}
+
+
+
+.hero_text p{
+    margin-bottom: 33px;
+    color: #777777;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Oxygen', sans-serif;
+}
+.hero_image{
+  max-width: 49%;
+}
+.hero_round_img{
+    bottom: 0;
+    position: absolute;
+}
+
+.hero_round_img img{
+    max-width: 500px;
+
+}
+.hero_front_img{
+    position: relative;
+    z-index: 1;
+    height: 100%;
+}
+
+.hero_front_img img{
+    
+    margin-left: 100px;
+    
+}
+h1 span{
+    color: #ff7b00;
+}
+.hero_btn{
+   padding: 1.2rem;
+   width: 50%;
+}
+
+.hero_image{
+    height: 100%;
+}
+
+.hero_image img{
+    height: 100%;
+}
+
+/* info section */
+
+
+
+.info_header{
+    padding: 25px;
+   width: 65%;
+   margin: 0 auto;
+}
+
+.info_header span{
+    
+    color: teal;
+}
+
+.info_header h1{
+    margin-top: 30px;
+}
+
+.card_list{
+    padding: 25px;
+    justify-content: space-between;
+  
+}
+
+.card{
+  height: 40vh;
+    width: 30%;
+}
+
+.card h2{
+    padding: 20px 0;
+}
+.account_card{
+    border-radius: 5px;
+    padding: 8px 15px;
+    border: 1px solid gray;
+    width: 40%;
+}
+
+.accounts{
+    padding: 40px 0;
+}
+.account_card p{
+    padding: 0 20px;
+}
+
+/* about  */
+
+.section_about{
+    background-image: url("https://html.designingmedia.com/repay/assets/images/about-background.png");
+}
+
+.about_text p{
+    padding: 20px;
+}
+

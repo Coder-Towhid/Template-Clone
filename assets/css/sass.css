@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost&family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+/* ================= VARIABLES CSS START ==================== */
+:root {
+    --epay-header-height: 3rem;
+
+    /* ======= COLOR ============ */
+    --epay-main-color: #00a9a4;
+    --epay-secondary-color: #28214c;
+    --epay-white-color: #FFFFFF;
+    --epay-orange-color: #ff6400;
+    --pay-darkblue-color: #010647;
+    --epay-text-color2: #000000;
+    --epay-custom-color: #777777;
+    --epay-shadow-color: rgba(0, 0, 0, 0.25);
+    --epay-main-shadow-color:  rgba(0, 161, 222, 0.15);
+
+    /* ======= FONT AND TYPOGRAPHY======== */
+    --main-font:  'Barlow Condensed', sans-serif;
+    --second-font: 'Jost', sans-serif;
+    --third-font: 'Oxygen', sans-serif;
+
+    --biggest-font-size: 2.5rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --h4-font-size: 0.875rem;
+    --h5-font-size: 0.75rem;
+    --h6-font-size: 0.625rem;
+    --normal-font-size: 0.75rem;
+    --small-font-size: 0.813rem;
+    --smallest-font-size: 0.75rem;
+
+    /* ======= FONT WEIGHT =========== */
+    --epay-weight-light: 300;
+    --epay-weight-normal: 400;
+    --epay-weight-medium: 500;
+    --epay-weight-semi-bold: 600;
+    --epay-weight-bold: 700;
+    --epay-line-height: 0.9375rem;
+
+    /* ======= MARGIN & PADDING ========== */
+    --epay-md-1: 0.25rem;
+    --epay-md-2: 0.5rem;
+    --epay-md-3: 0.7rem;
+    --epay-md-4: 1rem;
+    --epay-md-5: 1.25rem;
+    --epay-md-6: 1.5rem;
+
+    /* ======= BORDER RADIUS ========== */
+    --epay-border-radius: 0.1875rem;
+
+    /* ======= BORDER WIDTH ========== */
+    --epay-border-width: 0.0625rem;
+
+    /* ======= Z INDEX ========== */
+    --epay-z-tooltip: 10;
+    --epay-z-fixed: 100;
+}
+
+/* ================= VARIABLES CSS END ==================== */
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+img {
+    vertical-align: middle;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--epay-text-color);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--epay-text-color);
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, ul, li, label {
+   margin: 0;
+}
+
+h6{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var( --epay-main-color);
+    font-family: var(--third-font);
+   
+}
+h4 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--e-global-color-very-dark-blue);
+    color: var(--pay-darkblue-color);
+}
+h3 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: var(--pay-darkblue-color);
+}
+
+h2{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 400;
+    color: #28214c;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--epay-custom-color);
+    font-family: var(--third-font);
+}
+a {
+    outline: none;
+    color: #dddddd;
+    text-decoration: none;
+}
+.footer-section .footer-logo {
+    position: relative;
+    top: 18px;
+    margin-bottom: 30px;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.button{
+    border: none;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 16px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: var(--second-font);
+    color: var(--epay-white-color);
+    background-color: var(--epay-orange-color);
+}
+
+.text-size-18 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--epay-custom-color);
+    font-family: var(--third-font);
+}
+.text-size-16 {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--epay-custom-color);
+    font-family: var(--third-font);
+}
+.footer-section .links .text-size-16 {
+    position: relative;
+    padding-left: 14px;
+}
+.footer-section .links li a:before {
+    content: "\f0da";
+    color: var(--epay-orange-color);
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 0;
+    position: absolute;
+    font-family: 'FontAwesome';
+  
+    left: 0px;
+}
+
+.animate__backInLeftr {
+    --animate-duration: 8s;
+  }

@@ -1,0 +1,592 @@
+
+.social_section{
+    padding: 10px 0;
+    font-family: var(--second-font);
+    background-color: var(--epay-secondary-color);
+    color: var(--epay-white-color);
+}
+
+
+/*======================== menu_part start =====================*/
+.menu_part {
+    padding-top: 0px;
+    background: var(--epay-white-color);
+    font-family: var(--second-font);
+    width: 100%;
+    height: 5rem;
+    /* border-bottom: 1px solid rgba(30, 30, 30, 0.6); */
+
+}
+
+.menu_part ul li{
+    margin: auto 16px;
+}
+.menu_part ul li a{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: var(--epay-text-color2) !important;
+    font-family: var(--third-font)
+}
+
+
+.navbar-nav .nav-item a:hover {
+    color: var(--epay-orange-color) !important;
+    background-color: transparent;
+}
+.navbar-nav .button:hover {
+    color: var(--epay-white-color) !important;
+    background-color: var(--epay-main-color) ;
+}
+
+/*======================== banner_part start =====================*/
+
+.bannermain{
+   
+    background-color: transparent;
+    background-position: center;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 230px 0 0;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.bgshape{
+    position: absolute;
+    top: 0;
+   
+}
+
+.bgshape img{
+    width: 100%;
+}
+
+.bannermain .banner h6 {
+ 
+    margin-bottom: 13px;
+ 
+}
+.bannermain .banner h1 {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+.bannermain .banner p {
+    color: var(--epay-custom-color);
+    margin-bottom: 33px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: var(--third-font);
+}
+.bannermain span {
+    color: var(--epay-orange-color);
+    padding-left: 7px;
+}
+.bannermain .banner-wrapper .banner-image {
+    position: relative;
+    z-index: 1;
+}
+
+.bannermain .button_text {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    padding: 22px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    color: var(--epay-white-color);
+    font-family: var(--second-font);
+    background-color: var(--epay-orange-color);
+}
+
+.bannermain .button_text:hover {
+    background-color: var(--epay-main-color);
+    color: var(--epay-white-color);
+}
+.bannermain .banner-wrapper .banner-image img {
+    margin-top: -150px;
+    padding-left: 141px;
+}
+.bannermain .banner-wrapper .content {
+    position: absolute;
+    right: 129px;
+    bottom: 116px;  
+}
+
+/*======================== what we do_part start =====================*/
+.what-we-do {
+    padding: 145px 0px 150px;
+}
+
+.what-we-do .subheading h6 {
+    margin-bottom: 20px;
+}
+.what-we-do .subheading h2 {
+    padding: 0 250px;
+    margin-bottom: 70px;
+}
+
+.what-we-do .service1 {
+    margin-bottom: 72px;
+    text-align: center;
+}
+
+.what-we-do .img {
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.what-we-do .text-size-18 {
+    padding: 0px 20px;
+}
+
+.what-we-do h3 {
+    margin-bottom: 26px;
+}
+
+.what-we-do .service1 {
+    margin-bottom: 72px;
+    text-align: center;
+}
+
+.what-we-do .arrow1 {
+    width: 18%;
+    position: absolute;
+    left: 284px;
+    top: 20px;
+}
+.what-we-do .service2 {
+    padding-top: 120px;
+}
+.what-we-do .arrow2 {
+    width: 18%;
+    position: absolute;
+    left:   750px;
+    top: 48px;
+}
+
+.what-we-do .account {
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 15px;
+}
+.what-we-do .account .accounticon {
+    display: inline-block;
+    width: 22%;
+}
+.what-we-do .account .heading {
+    vertical-align: middle;
+    display: inline-block;
+    padding-left: 25px;
+    width: 77%;
+}
+
+.what-we-do .account:hover {
+    background-color: var( --epay-main-color);
+    box-shadow: 1px 1px 100px -20px #888888;
+    border: 1px solid var( --epay-main-color);
+    transition: all 0.3s ease-in-out;
+}
+.what-we-do .account:hover h3 {
+    color: var(--epay-white-color);
+}
+
+/*======================== About Epaayer_part start =====================*/
+
+.about-epayeer{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 212px 0;
+    position: relative;
+}
+.about-epayeer .about-wrapper {
+    position: relative;
+}
+
+.about-epayeer .about-wrapper .circle {
+    position: absolute;
+    right: -60px;
+    top: -70px;
+}
+.about-epayeer .about-wrapper .image {
+    position: absolute;
+    left: 150px;
+    top: -64px;
+}
+.about-epayeer .about-content h6 {
+    margin-bottom: 20px;
+}
+
+.about-epayeer .about-content h2 {
+    margin-bottom: 20px;
+}
+.about-epayeer .about-content .text-size-18 {
+    margin-bottom: 30px;
+}
+.about-epayeer .about-content .text {
+    margin-bottom: 42px;
+}
+
+.about-epayeer .about-content .right-lower {
+    display: flex;
+}
+
+.about-epayeer .about-content .right-lower .icon {
+    transition: all 0.3s ease-in-out;
+}
+.about-epayeer .about-content .right-lower .content {
+    padding: 2px 48px 0 14px;
+}
+.about-epayeer .about-content span {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--epay-orange-color);
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* ================================== service part start =========================== */
+
+.service-section {
+    padding: 145px 0 120px;
+    position: relative;
+}        
+.service-section .service-content h6 {
+    margin-bottom: 20px;
+}
+
+.service-section .service-content h2 {
+    margin-bottom: 70px;
+}
+.service-section .service-content .service-image {
+    margin-bottom: 130px;
+}
+.service-section .services-data .service-box {
+    position: relative;
+    text-align: center;
+    margin-bottom: 36px;
+    padding: 50px 0;
+}
+.service-section .services-data .service-box .img {
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.service-section .services-data .service-box h3 {
+    margin-bottom: 26px;
+}
+
+.service-section .services-data .service-box .text-size-18 {
+    padding: 0px 20px;
+    margin-bottom: 32px;
+}
+
+.service-section .services-data .service-box .more {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    padding: 10px 33px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    color: var(--e-global-color-text);
+    background-color: #eeeeee;
+    transition: all 0.3s ease-in-out;
+}
+.service-section .services-data .mobile-image {
+    position: relative;
+    top: 10px;
+}
+.service-section .services-data .service-box:hover {
+    background-color: var(---epay-white-color);
+    box-shadow: 1px 1px 100px -30px #888888;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.service-section .services-data .service-box:hover .more {
+    background-color: var(--epay-orange-color);
+    color: var(--epay-white-color);
+}
+
+
+
+
+/*  ================== manage part start ====================== */
+
+.manage-section {
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 133px 0 45px;
+    position: relative;
+}
+
+.manage-section .manage-content h2 {
+    padding-right: 4px;
+    margin-bottom: 60px;
+}
+
+.manage-section .manage-content .content {
+    padding-left: 28px;
+} 
+
+.manage-section .manage-content .content h4 {
+    margin-bottom: 16px;
+}
+
+.manage-section .manage-content .content .text-size-16 {
+    margin-bottom: 33px;
+}
+
+
+.manage-section .manage-content .content .text-size-16 {
+    margin-bottom: 33px;
+}
+.manage-section .manage-content .content .text {
+    padding-right: 26px;
+}
+
+.manage-section .manage-wrapper .manage-image {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    right: 170px;
+}
+
+.manage-section .manage-wrapper .content {
+    position: relative;
+    right: -16px;
+    top: -21px;
+
+}
+.manage-section .manage-layer {
+    position: absolute;
+    bottom: 0;
+}
+
+/* ======================= plan part start ============================= */
+.plan {
+    padding: 145px 0;
+}
+.plan .content h6 {
+    margin-bottom: 20px;
+}
+.plan .content h2 {
+    margin-bottom: 70px;
+    padding: 0 214px;
+}
+
+.plan .pricing {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 19px 45px;
+}
+.plan .pricing h3 {
+    margin-bottom: 6px;
+}   
+.plan .pricing .text {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.plan .pricing div{
+    margin: auto 0;
+}
+.plan .pricing .icon {
+    
+    filter: grayscale(100%);
+}
+.plan .facility li:first-child {
+    margin-left: 0;
+}
+.plan .facility .font1 {
+    color: var(--epay-orange-color);
+}
+.plan .facility li p {
+    padding-left: 10px;
+    margin-top: -7px;
+}
+.plan .facility li {
+    display: inline-flex;
+    margin: 0 20px;
+}
+
+.plan .pricing:hover {
+    background-color: var(--epay-main-color);
+    box-shadow: 1px 1px 100px -20px #888888;
+    border: 1px solid var(--epay-main-color);
+    transition: all 0.5s ease-in-out;
+}
+.plan .pricing:hover h3 {
+    color: var(--epay-white-color) !important;
+}
+.plan .pricing:hover h4 {
+    color: var(--epay-white-color) !important;
+}
+.plan .pricing:hover p {
+    color: var(--epay-white-color) !important;
+}
+.plan .pricing:hover .icon {
+    filter: none;
+}
+
+/*  =============== need part start ========================= */
+
+.need-section {
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 125px 0 70px;
+    position: relative;
+}
+
+.need-section .content h6 {
+    margin-bottom: 20px;
+}
+
+.need-section .content h2 {
+    margin-bottom: 20px;
+}
+.need-section .content p {
+    padding: 0 170px;
+    margin-bottom: 72px;
+}
+
+.need-section .service2 {
+    padding-top: 120px;
+}
+.need-section .img {
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.need-section .arrow1 {
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+.need-section .arrow2 {
+    position: absolute;
+    right: 310px;
+    top: 48px;
+}
+.need-section .need-layer {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}   
+
+.need-section .arrow1, .arrow2{
+    width: 18%;
+}
+
+
+/* ================================ Footer part start ============================ */
+.footer-section {
+    padding-bottom: 52px;
+}
+
+.footer-section .partner-section {
+    padding: 51px 0;
+    position: relative;
+}
+
+.footer-section .partner-section .partner li:first-child {
+    margin-left: 0px;
+}
+.footer-section .partner-section .partner li {
+    display: inline-block;
+    margin-right: 110px;
+}
+.footer-section .partner-section .partner img {
+    transition: all 0.3s ease-in-out;
+}
+.footer-section .partner-section .partner li:last-child {
+    margin-right: -4px;
+}
+
+.footer-section .middle-portion {
+    border-top: 2px solid #f3f7f7;
+    padding-top: 76px;
+}
+.footer-section .footer-logo {
+    position: relative;
+    top: 18px;
+    margin-bottom: 30px;
+}
+.footer-section .middle-portion .footer-text {
+    margin-bottom: 6px;
+}
+.footer-section .middle-portion .payment-icon {
+    position: relative;
+    left: -36px;
+    bottom: 27px;
+}
+
+.footer-section .middle-portion .heading {
+    margin-bottom: 18px;
+}
+.footer-section .middle-portion .line {
+    color: var(--epay-orange-color);
+    width: 32px;
+    background-color: var(--epay-orange-color);
+    text-align: left;
+    margin: 0 0 34px 0;
+}
+
+.footer-section .middle-portion .social-icons .circle {
+    background: #cbcbcb;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 2px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+.footer-section .text:hover {
+    color: var(--epay-orange-color);
+}
+
+.footer-section .middle-portion .social-icons .circle:hover {
+    background-color: var(--epay-main-color);
+    transform: translateY(-5px);
+}
+.footer-section .middle-portion .social-icons a {
+    color: var(--epay-white-color);
+}
+
+.footer-section .icon .text1 {
+    margin-bottom: 20px;
+}
+.footer-section .partner-section .partner img:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+/*  ====================== copyright section ================== */
+.copyright {
+    text-align: center;
+    padding: 15px 0px;
+   
+    background-color: var(--epay-main-color);
+}
+
+.copyright .text-size-16 {
+    color: var(--epay-white-color);
+    margin: 0px;
+}
