@@ -1,0 +1,49 @@
+.pricing-faq {
+    padding: 150px 0 115px;
+}
+
+.accordian-section {
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
+}
+
+.faq-section .subheading {
+    text-align: center;
+}
+.faq-section .subheading h6 {
+    margin-bottom: 20px;
+}
+.faq-section .subheading h2 {
+    margin-bottom: 68px;
+}
+.faq-section .accordion-card {
+    border: 1px solid #dddddd;
+    box-shadow: 1px 1px 100px rgb(0 0 0 / 10%);
+    background: var(--epay-white-color);
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    padding: 0 28px;
+}
+.faq-section .accordian-inner .card-header {
+    padding: 0;
+    margin-bottom: 0;
+    background: none;
+    border: none;
+}
+
+.faq-section .accordian-inner .accordion-card .btn {
+    padding: 20px 0px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}   
+.accordian-section .manage-layer {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}

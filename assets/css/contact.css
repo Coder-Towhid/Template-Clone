@@ -1,0 +1,78 @@
+.message-section {
+    padding: 147px 0 137px;
+}
+.message-section .content {
+    text-align: center;
+}
+.message-section .content h6 {
+    margin-bottom: 20px;
+}
+
+.message-section .content h2 {
+    margin-bottom: 26px;
+}
+
+.message-section .message_content h4 {
+    margin-bottom: 14px;
+    color: #010647;
+}
+.message-section .message_content input {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #cccccc;
+    font-family: 'Oxygen', sans-serif;
+    background-color: var(--e-global-color-white);
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 20px 20px 20px 30px;
+    margin-bottom: 13px;
+    width: 100%;
+    overflow: visible;
+    outline: none;
+}
+
+.message-section .message_content textarea {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #cccccc;
+    font-family: 'Oxygen', sans-serif;
+    background-color: var(--e-global-color-white);
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 20px 20px 20px 30px;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 16px;
+    resize: none;
+    outline: none;
+    overflow: auto;
+}
+
+.message-section .message_content .submit {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Oxygen', sans-serif;
+    padding: 20px 54px;
+    border-radius: 5px;
+    color: var(--epay-white-color);
+    background-color: var(--epay-main-color);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    display: block;
+    text-align: center;
+    outline: none;
+    border-style: none;
+    width: 100%;
+}
+
+.message-section .map {
+    padding-top: 45px;
+}
+.message-section .map iframe {
+    width: 100%;
+    height: 600px;
+    border-radius: 5px;
+}

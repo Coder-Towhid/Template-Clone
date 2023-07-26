@@ -135,6 +135,12 @@ h2{
     color: #28214c;
 }
 
+h1 {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 400;
+    color: var(--epay-secondary-color);
+}
 p {
     font-size: 20px;
     line-height: 30px;
@@ -158,18 +164,7 @@ hr {
     border: 0;
     border-top: 1px solid rgba(0,0,0,.1);
 }
-.button{
-    border: none;
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 400;
-    padding: 16px 15px;
-    border-radius: 5px;
-    display: inline-block;
-    font-family: var(--second-font);
-    color: var(--epay-white-color);
-    background-color: var(--epay-orange-color);
-}
+
 
 .text-size-18 {
     font-size: 18px;
@@ -204,3 +199,57 @@ hr {
 .animate__backInLeftr {
     --animate-duration: 8s;
   }
+
+  
+
+.sub-banner {
+    background: url(https://html.designingmedia.com/repay/assets/images/sub-bannerbackground.png);
+    background-color: transparent;
+    background-position: center;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 0px;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+}
+
+
+.sub-banner .banner-section .bgshape {
+    position: absolute;
+    top: 0;
+}
+
+.sub-banner .banner-section .banner_content h1 {
+    margin-bottom: 24px;
+}
+.sub-banner .banner-section .banner_content p {
+    padding: 0 152px;
+    color: #555555;
+    margin-bottom: 90px;
+}
+
+
+.sub-banner .box {
+    box-shadow: 1px 1px 100px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 6px 35px;
+    text-align: center;
+    background-color: var(--epay-white-color);
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+    top: 26px;
+}
+
+.sub-banner .dash {
+    font-size: 20px !important;
+    line-height: 30px !important;
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.sub-banner .box .box_span {
+    color: var(--epay-orange-color);
+}

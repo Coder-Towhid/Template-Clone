@@ -6,6 +6,12 @@
     color: var(--epay-white-color);
 }
 
+.social_icons  i{
+    margin-right: 5px;
+}
+
+
+
 
 /*======================== menu_part start =====================*/
 .menu_part {
@@ -14,7 +20,7 @@
     font-family: var(--second-font);
     width: 100%;
     height: 5rem;
-    /* border-bottom: 1px solid rgba(30, 30, 30, 0.6); */
+    box-shadow: 1px 1px 100px -20px #888888;
 
 }
 
@@ -38,6 +44,19 @@
     color: var(--epay-white-color) !important;
     background-color: var(--epay-main-color) ;
 }
+.navbar-nav .button{
+    border: none;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 16px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: var(--second-font);
+    color: var(--epay-white-color);
+    background-color: var(--epay-orange-color);
+}
+
 
 /*======================== banner_part start =====================*/
 
@@ -445,6 +464,7 @@
 
 .need-section {
    
+    background: url(https://html.designingmedia.com/repay/assets/images/about-background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -491,6 +511,29 @@
     width: 18%;
 }
 
+.need-section .text-size-18 {
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+
+.need-section .service1 .btn {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: var(--second-font);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: var(--epay-white-color);
+    background-color: var(--epay-orange-color);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+.need-section .service1 .btn:hover {
+    background-color: var(--epay-main-color);
+    color: var(--epay-white-color);
+}
 
 /* ================================ Footer part start ============================ */
 .footer-section {

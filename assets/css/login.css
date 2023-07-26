@@ -1,0 +1,11 @@
+.login-form .login-form-box {
+    width: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+.login-form .login-card .forgot-password {
+    float: right;
+    color: var(--epay-orange-color);
+    font-size: 18px;
+    text-decoration: none;
+}

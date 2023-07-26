@@ -1,0 +1,108 @@
+.sign-up-form {
+    padding: 70px 0;
+}
+.login-form {
+    min-height: 100vh;
+    background: url(../images/about-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.login-form .login-form-title {
+    margin-bottom: 50px;
+}
+
+.login-form .login-page-logo {
+    margin-bottom: 25px;
+}
+.sign-up-form .login-form-box {
+    width: 700px;
+}
+
+
+.login-form .login-form-box {
+    
+    margin: 0 auto;
+    position: relative;
+}
+.login-form .login-card {
+    background: var(--epay-white-color);
+    padding: 45px;
+    border-radius: 20px;
+    color: var(--epay-seconday-color);
+    margin-bottom: 30px;
+}
+
+.login-form .login-card label {
+    margin-bottom: 0.5rem;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #010647 !important;
+}
+
+.login-form .login-card .input-field {
+    padding: 0px 15px;
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    margin-top: 0px;
+    height: 56px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #cccccc;
+    font-family: var(--third-font);
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+.sign-up-form .login-card .select-option {
+    padding: 0px 35px 0 15px;
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    margin-top: 0px;
+    height: 56px !important;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: var(--third-font);
+    background-image: url(https://html.designingmedia.com/repay/assets/images/dropdown.png);
+    background-repeat: no-repeat;
+    background-position: 97.2% 23px;
+    -webkit-appearance: none;
+}
+
+.login-form .login-card .btn-primary {
+    padding: 0 45px;
+    line-height: 50px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border: 1px solid var(--epay-orange-color);
+    text-decoration: none;
+    display: inline-block;
+    color: var(--epay-white-color);
+    background: var(--epay-orange-color);
+}
+
+.text-center {
+    text-align: center!important;
+}
+.login-form .need-layer {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.login-form .login-form-box .join-now-outer a {
+    text-decoration: none;
+    font-size: 18px;
+    color: var( --epay-custom-color);
+}
