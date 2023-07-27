@@ -1,0 +1,733 @@
+
+@media only screen and (max-width: 1199px){
+    .bannermain {
+        padding: 100px 0 0;
+    }
+    .bannermain .banner h6 {
+        margin-bottom: 10px;
+    }
+    .bannermain .banner h1 {
+        margin-bottom: 20px;
+    }
+    .bannermain .banner p {
+        margin-bottom: 24px;
+    }
+    .bannermain .button_text {
+        padding: 15px 30px;
+    }
+    .bannermain .banner-wrapper .banner-image img {
+        margin-top: -70px;
+        margin-left: 76px;
+        padding-left: 0;
+        width: 390px;
+    }
+    .bannermain .banner-wrapper .content {
+        left: -18px;
+        top: -46px;
+    }
+    .bannermain .banner-wrapper .content img {
+        width: 600px;
+    }
+
+    /* ========= what we do ================ */
+    .what-we-do {
+        padding: 100px 0;
+    }
+    .what-we-do .subheading h6 {
+        margin-bottom: 10px;
+    }
+    .what-we-do .subheading h2 {
+        padding: 0 124px;
+        margin-bottom: 60px;
+    }
+    .what-we-do .img {
+        margin-bottom: 20px;
+    }
+    .what-we-do .img img {
+        width: 76px;
+    }
+    .what-we-do h3 {
+        margin-bottom: 10px;
+    }
+    
+    .what-we-do .text-size-18 {
+        padding: 0px 10px;
+    }    
+    .what-we-do .arrow1 {
+        left: 242px;
+        top: 32px;
+    }
+    .what-we-do .arrow1 img {
+        width: 145px;
+    }
+    .what-we-do .service2 {
+        padding-top: 100px;
+    }
+    .what-we-do .arrow2 {
+        left: 560px;
+        top: 56px;
+    }
+
+    .what-we-do .arrow2 img {
+        width: 145px;
+    }
+    .what-we-do .account {
+        padding: 10px;
+    }
+    /* ===== about ============= */
+    .about-epayeer {
+        padding: 170px 0;
+    }
+    .about-epayeer .about-wrapper .image {
+        left: 66px;
+        top: -74px;
+    }
+    .about-epayeer .about-wrapper .image img {
+        width: 360px;
+    }
+    .about-epayeer .about-content h6 {
+        margin-bottom: 10px;
+    }
+    .about-epayeer .about-content h2 {
+        margin-bottom: 15px;
+        padding: 0;
+    }
+    .about-epayeer .about-content .text-size-18 {
+        margin-bottom: 20px;
+
+    }
+    .about-epayeer .about-content .right-lower .icon {
+        width: 70px;
+    }
+    .about-epayeer .about-content .right-lower .content {
+        padding: 2px 8px 0 10px;
+    }
+    .about-epayeer .about-content span {
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+
+    /* =========== service =========== */
+    
+    .service-section {
+        padding: 100px 0 74px;
+    }
+    .service-section .service-content h6 {
+        margin-bottom: 10px;
+    }
+    .service-section .service-content h2 {
+        margin-bottom: 50px;
+    }
+    
+    .service-section .service-content .service-image {
+        margin-bottom: 30px;
+    }
+    .service-section .services-data .service-box {
+        margin-bottom: 20px;
+        padding: 50px 10px;
+    }
+    .service-section .services-data .service-box .img {
+        margin-bottom: 20px;
+    }
+    .service-section .services-data .service-box .img2 {
+        margin-bottom: 30px;
+    }
+    .service-section .services-data .service-box .img2 img {
+        width: 86px;
+    }
+    .service-section .services-data .service-box .img3 {
+        margin-bottom: 18px;
+    }
+    .service-section .services-data .service-box .img3 img {
+        width: 69px;
+    }
+    .service-section .services-data .service-box .img5 {
+        margin-bottom: 25px;
+    }
+    .service-section .services-data .service-box .img img {
+        width: 76px;
+    }
+    .service-section .services-data .service-box h3 {
+        margin-bottom: 10px;
+    }
+    .service-section .services-data .service-box .text-size-18 {
+        padding: 0;
+        margin-bottom: 25px;
+    }
+    .service-section .services-data .service-box .more {
+        padding: 8px 26px;
+    }
+
+    /* =========== manage ================== */
+    .manage-section {
+        padding: 90px 0 70px;
+    }
+    .manage-section .manage-content h2 {
+        padding-right: 0;
+        margin-bottom: 35px;
+    }
+    .manage-section .manage-content .icon img {
+        width: 76px;
+    }
+    .manage-section .manage-content .content h4 {
+        margin-bottom: 10px;
+    }
+    .manage-section .manage-content .content .text {
+        padding-right: 0;
+    }
+    .manage-section .manage-content .content .text-size-16 {
+        margin-bottom: 20px;
+    }
+    .manage-section .manage-wrapper .manage-image {
+        top: 68px;
+        right: 80px;
+    }
+    .manage-section .manage-wrapper .manage-image img {
+        width: 350px;
+    }
+    .manage-section .manage-layer {
+        display: none;
+    }
+
+    /* ======= plan ================= */
+    .plan {
+        padding: 100px 0 90px;
+    }
+    .plan .content h6 {
+        margin-bottom: 10px;
+    }
+    .plan .content h2 {
+        margin-bottom: 50px;
+        padding: 0 180px;
+    }
+
+    .plan .facility li {
+        margin: 0 10px;
+    }
+    .plan .facility {
+        text-align: center;
+    }
+    
+   
+
+    /* ======== need ================ */
+    .need-section {
+        padding: 100px 0;
+    }
+    .need-section .content h6 {
+        margin-bottom: 10px;
+    }
+    .need-section .content h2 {
+        margin-bottom: 15px;
+    }
+    .need-section .content p {
+        padding: 0 80px;
+        margin-bottom: 35px;
+    }
+    .need-section .img {
+        margin-bottom: 20px;
+    }
+    .need-section h3 {
+        margin-bottom: 10px;
+    }
+    .need-section .text-size-18 {
+        padding: 0;
+    }
+    .need-section .arrow1 {
+        left: 242px;
+        top: 32px;
+    }
+    .need-section .arrow1 img {
+        width: 145px;
+    }
+    .need-section .service2 {
+        padding-top: 100px;
+    }
+    .need-section .arrow2 {
+        right: 256px;
+        top: 56px;
+    }
+    need-section .arrow2 img {
+        width: 145px;
+    }
+
+    
+
+
+}
+
+@media only screen and (max-width: 991px){
+    .bannermain {
+        padding: 118px 0 0;
+    }
+    .bannermain .banner h6 {
+        margin-bottom: 8px;
+    }
+    .bannermain .banner h1 {
+        margin-bottom: 10px;
+    }
+    .bannermain .banner p {
+        margin-bottom: 25px;
+    }
+    .bannermain .button_text {
+        padding: 15px 20px;
+    }
+    
+    .bannermain .banner-wrapper .banner-image img {
+        margin-top: -46px;
+        margin-left: 56px;
+        width: 300px;
+    }
+
+    /* what we do */
+    .what-we-do {
+        padding: 70px 0;
+    }   
+    .what-we-do .subheading h2 {
+        padding: 0 80px;
+        margin-bottom: 50px;
+    }
+    .what-we-do .service1 {
+        margin-bottom: 40px;
+    }
+    .what-we-do .img {
+        margin-bottom: 15px;
+    }
+    .what-we-do .text-size-18 {
+        padding: 0 30px;
+    }
+    .what-we-do .arrow1 {
+        display: none;
+    }
+    .what-we-do .service2 {
+        padding-top: 7px;
+    }
+    .what-we-do .arrow2 {
+        display: none;
+    }
+    .what-we-do .account {
+        text-align: center;
+    }
+    .what-we-do .account .heading {
+        padding-left: 0px;
+    }
+
+    /*  about  */
+    .about-epayeer {
+        padding: 120px 0 100px;
+    }
+    .about-epayeer .about-wrapper .image {
+        left: 8px;
+        top: -50px;
+    }
+    .about-epayeer .about-wrapper .image img {
+        width: 360px;
+    }
+    .about-epayeer .about-content .text-size-18 {
+        margin-bottom: 15px;
+        padding: 0;
+    }
+    .about-epayeer .about-content .right-lower .icon {
+        margin-right: 10px;
+    }
+    .about-epayeer .about-content .right-lower .content {
+        padding: 0;
+    }
+
+    /* service */
+    .service-section {
+        padding: 70px 0 60px;
+    }
+    .service-section .service-content h2 {
+        margin-bottom: 30px;
+    }
+    .service-section .services-data .service-box {
+        margin-bottom: 10px;
+        padding: 30px 8px;
+    }
+    .service-section .services-data .service-box .img {
+        margin-bottom: 15px;
+    }
+    .service-section .services-data .service-box .img img {
+        width: 60px;
+    }   
+    
+    .service-section .services-data .service-box .text-size-18 {
+        padding: 0 20px;
+    }
+    .service-section .services-data .service-box .more {
+        padding: 8px 20px;
+    }
+    .service-section .services-data .mobile-image {
+        top: 70px;
+    }
+
+
+    /* manage part */
+    .manage-section {
+        padding: 60px 0 45px;
+    }
+    .manage-section .manage-content h2 {
+        margin-bottom: 25px;
+    }
+    .manage-section .manage-content .icon img {
+        width: 65px;
+    }
+    
+    .manage-section .manage-wrapper .manage-image {
+        right: 50px;
+        top: 26px;
+    }
+    
+    .manage-section .manage-wrapper .manage-image img {
+        width: 350px;
+    }
+
+    /* plan section */
+    .plan {
+        padding: 70px 0 60px;
+    }
+    .plan .content h2 {
+        margin-bottom: 30px;
+        padding: 0px 130px;
+    }
+    .plan .pricing {
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+    .plan .facility li:first-child {
+        margin-left: 28px;
+    }
+    .plan .facility li {
+        margin: 0 32px;
+    }
+    .plan .facility li:last-child {
+        margin-right: 0px;
+    }
+    .plan .facility .font1 {
+        margin-top: -2px;
+    }
+    .plan .facility li p {
+        padding-left: 6px;
+    }
+    .plan .facility .text4 {
+        margin-left: -5px;
+        margin-right: 34px;
+    }
+    .plan .facility .text5 {
+        margin-right: 74px;
+        margin-left: 25px;
+    }
+
+    /* need section */
+    .need-section {
+        padding: 70px 0 30px;
+    }
+    .need-section .content p {
+        padding: 0 4px;
+        margin-bottom: 35px;
+    }
+    .need-section .service1 {
+        margin-bottom: 40px;
+    }
+    .need-section .img {
+        margin-bottom: 15px;
+    }
+    .need-section .img img {
+        width: 65px;
+    }
+    .need-section .text-size-18 {
+        padding: 0 40px;
+    }
+    .need-section .arrow1 {
+        display: none;
+    }
+    .need-section .service2 {
+        padding-top: 7px;
+    }
+    
+    .need-section .img2 {
+        margin-bottom: 10px;
+    }
+    .need-section .arrow2 {
+        display: none;
+    }    
+    .need-section .need-layer {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    .social_section{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .bannermain {
+        padding: 100px 0 0;
+    }
+    .bannermain .banner {
+        text-align: center;
+    }
+    .bannermain .banner p {
+        padding: 0 70px;
+    }
+    .bannermain .button_text {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 15px;
+    }
+    .bannermain .banner-wrapper {
+        text-align: center;
+    }
+    .bannermain .banner-wrapper .banner-image img {
+        margin-top: 20px;
+        margin-left: -6px;
+    }
+
+    /*  what we do */
+    .what-we-do {
+        padding: 60px 0 45px;
+    }
+    .what-we-do .subheading h2 {
+        padding: 0 60px;
+        margin-bottom: 40px;
+    }
+    .what-we-do .text-size-18 {
+        padding: 0 58px;
+    }
+    .what-we-do .account {
+        margin-bottom: 15px;
+        padding: 10px 60px;
+    }
+   
+
+    /* about */
+    .about-epayeer {
+        padding: 110px 0 62px;
+    }
+    .about-epayeer .about-wrapper {
+        text-align: center;
+        margin-bottom: 458px;
+    }
+    .about-epayeer .about-wrapper .image {
+        left: 96px;
+        top: -48px;
+    }
+    .about-epayeer .about-wrapper .image img {
+        width: 336px;
+    }
+    .about-epayeer .about-content {
+        text-align: center;
+    }
+    .about-content .about-content .text-size-18 {
+        padding: 0 40px;
+    }
+    .about-epayeer .about-content .right-lower {
+        padding-left: 54px;
+    }
+
+    /* service */
+    .service-section {
+        padding: 60px 0 50px;
+    }
+    .service-section .services-data .mobile-image {
+        top: 10px;
+        text-align: center;
+    }
+
+    /* manage  */
+    .manage-section {
+        padding: 50px 0 35px;
+    }
+    .manage-section .manage-content {
+        text-align: center;
+    }
+    .manage-section .manage-content h2 {
+        margin-bottom: 30px;
+    }
+    
+    .manage-section .manage-content .icon {
+        margin-bottom: 20px !important;
+    }
+    .manage-section .manage-content .icon img {
+        width: 65px;
+    }
+    .manage-section .manage-content .content .text-size-16 {
+        margin-bottom: 30px;
+        padding: 0 60px;
+    }
+    .manage-section .manage-content .content {
+        padding-left: 0;
+    }
+    .manage-section .manage-wrapper {
+        text-align: center;
+    }
+    .manage-section .manage-wrapper .manage-image {
+        position: relative;
+        right: 7px;
+        top: 33px;
+    }
+    
+    
+    
+    .manage-section .manage-wrapper .manage-image img {
+        width: 260px;
+    }
+
+
+    /* plan */
+    .plan {
+        padding: 60px 0 50px;
+    }
+
+    .plan .content h2 {
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .plan .pricing {
+        padding: 15px 20px;
+    }
+    .plan .pricing .text1 {
+        margin-bottom: 20px !important;
+    }
+    .plan .facility li:first-child {
+        margin-left: 0;
+    }
+    .plan .facility li {
+        margin: 0 15px;
+    }
+    .plan .facility .text4 {
+        margin: 0 -14px;
+    }
+    .plan .facility .text5 {
+        margin-right: 72px;
+        margin-left: 42px;
+    }
+    .plan .facility li:last-child {
+        margin: 0;
+    }
+
+    /* need */
+    .need-section {
+        padding: 60px 0 20px;
+    }
+    .need-section .content h2 {
+        margin-bottom: 10px;
+    }
+    .need-section .content p {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .need-section .text-size-18 {
+        padding: 0 76px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 575px){
+
+    .bannermain .banner h6 {
+        margin-bottom: 2px;
+    }
+    .bannermain .banner h1 {
+        margin-bottom: 4px;
+    }
+    .bannermain .banner p {
+        margin-bottom: 16px;
+        padding: 0;
+    }
+    .bannermain .banner-wrapper .banner-image img {
+        margin-top: 18px;
+        margin-left: -10px;
+        width: 242px;
+    }
+    .what-we-do .subheading h2 {
+        margin-bottom: 44px;
+        padding: 0;
+    }
+    .what-we-do .text-size-18 {
+        padding: 0;
+    }
+    .what-we-do .account {
+        padding: 10px 40px;
+    }
+
+    .about-epayeer .about-wrapper {
+        margin-bottom: 416px;
+    }
+    .about-epayeer .about-wrapper .image {
+        left: 26px;
+        top: -50px;
+    }
+    .about-epayeer .about-content h6 {
+        margin-bottom: 6px;
+    }
+    .about-epayeer .about-content h2 {
+        margin-bottom: 10px;
+        padding: 0 10px;
+    }
+    .about-epayeer .about-content .text-size-18 {
+        margin-bottom: 10px;
+        padding: 0 20px;
+    }
+    .about-epayeer .about-content .text {
+        margin-bottom: 20px !important;
+    }
+    .about-epayeer .about-content .right-lower {
+        padding-left: 0;
+    }
+    .about-epayeer .about-content .right-lower .icon {
+        margin-right: 0;
+    }
+
+    .service-section .service-content h6 {
+        margin-bottom: 5px;
+    }
+    .service-section .service-content h2 {
+        margin-bottom: 25px;
+        padding: 0 60px;
+    }
+
+    .manage-section {
+        padding: 50px 0 77px;
+    }
+    .manage-section .manage-wrapper .manage-image img {
+        width: 260px;
+    }
+    .manage-section .manage-wrapper .manage-image {
+        right: 0;
+        top: 75px;
+    }
+    .plan .content h6 {
+        margin-bottom: 6px;
+    }
+    .plan .content h2 {
+        margin-bottom: 20px;
+    }
+    .plan .facility li {
+        margin: 0 16px 6px;
+    }
+    .plan .facility .text3 {
+        margin-right: 29px;
+        margin-left: 0;
+    }
+    .plan .facility .text4 {
+        margin-left: 0;
+        margin-right: 37px;
+    }
+    .plan .facility .text5 {
+        margin-right: 48px;
+        margin-left: -37px;
+    }
+    .need-section .text-size-18 {
+        padding: 0 25px;
+    }
+}
+
+
+

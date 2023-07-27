@@ -15,7 +15,6 @@
 
 /*======================== menu_part start =====================*/
 .menu_part {
-    padding-top: 0px;
     background: var(--epay-white-color);
     font-family: var(--second-font);
     width: 100%;
@@ -218,6 +217,7 @@
 /*======================== About Epaayer_part start =====================*/
 
 .about-epayeer{
+    background-image: url(https://html.designingmedia.com/repay/assets/images/about-background.png);
     
     background-position: center;
     background-repeat: no-repeat;
@@ -343,6 +343,7 @@
 
 .manage-section {
  
+    background: url(https://html.designingmedia.com/repay/assets/images/manage-background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -378,7 +379,7 @@
 .manage-section .manage-wrapper .manage-image {
     position: absolute;
     z-index: 1;
-    top: 100px;
+    top: 40px;
     right: 170px;
 }
 
@@ -415,8 +416,8 @@
     margin-bottom: 6px;
 }   
 .plan .pricing .text {
-    font-size: 14px;
-    line-height: 30px;
+    font-size: 14px !important;
+    line-height: 30px !important;
 }
 
 .plan .pricing div{
@@ -525,13 +526,13 @@
     padding: 10px 15px;
     border-radius: 5px;
     color: var(--epay-white-color);
-    background-color: var(--epay-orange-color);
+    background-color: var(--epay-main-color);
     text-decoration: none;
     transition: all 0.3s ease-in-out;
     display: inline-block;
 }
 .need-section .service1 .btn:hover {
-    background-color: var(--epay-main-color);
+    background-color: var(--epay-orange-color);
     color: var(--epay-white-color);
 }
 
@@ -556,7 +557,7 @@
     transition: all 0.3s ease-in-out;
 }
 .footer-section .partner-section .partner li:last-child {
-    margin-right: -4px;
+    margin-right: -4px !important;
 }
 
 .footer-section .middle-portion {
@@ -617,8 +618,6 @@
 .footer-section .partner-section .partner img:hover {
     transform: translateY(-5px);
 }
-
-
 
 
 /*  ====================== copyright section ================== */

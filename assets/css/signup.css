@@ -91,7 +91,10 @@
     color: var(--epay-white-color);
     background: var(--epay-orange-color);
 }
-
+.login-form .login-card .btn-primary:hover {
+    background: transparent;
+    color: var(--epay-orange-color);
+}
 .text-center {
     text-align: center!important;
 }
