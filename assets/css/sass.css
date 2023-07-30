@@ -11,10 +11,10 @@
     --epay-header-height: 3rem;
 
     /* ======= COLOR ============ */
-    --epay-main-color: #00a9a4;
+    --epay-main-color: #074e7d;
     --epay-secondary-color: #28214c;
     --epay-white-color: #FFFFFF;
-    --epay-orange-color: #ff6400;
+    --epay-orange-color: #008fcb;
     --pay-darkblue-color: #010647;
     --epay-text-color2: #000000;
     --epay-custom-color: #777777;
@@ -289,7 +289,140 @@ hr {
     .navbar {
         padding: 14px 0;
     }
+
+    /* sub banner */
+
+    .sub-banner {
+        padding: 90px 0 0px;
+    }
+    .sub-banner .banner-section .banner_content h1 {
+        margin-bottom: 15px;
+    }
+    .sub-banner .banner-section .banner_content p {
+        padding: 0 105px;
+        margin-bottom: 54px;
+    }
+    .sub-banner .box {
+        top: 20px;
+        padding: 4px 30px;
+    }
+
+
+    /* service */
+    .service-section .service-content h6 {
+        margin-bottom: 10px;
+    }
+    .service-section .service-content h2 {
+        margin-bottom: 50px;
+    }
     
+    .service-section .service-content .service-image {
+        margin-bottom: 30px;
+    }
+    .service-section .services-data .service-box {
+        margin-bottom: 20px ;
+        padding: 50px 10px ;
+    }
+    .service-section .services-data .service-box .img {
+        margin-bottom: 20px;
+    }
+    .service-section .services-data .service-box .img2 {
+        margin-bottom: 30px;
+    }
+    .service-section .services-data .service-box .img2 img {
+        width: 86px;
+    }
+    .service-section .services-data .service-box .img3 {
+        margin-bottom: 18px;
+    }
+    .service-section .services-data .service-box .img3 img {
+        width: 69px;
+    }
+    .service-section .services-data .service-box .img5 {
+        margin-bottom: 25px;
+    }
+    .service-section .services-data .service-box .img img {
+        width: 76px;
+    }
+    .service-section .services-data .service-box h3 {
+        margin-bottom: 10px;
+    }
+    .service-section .services-data .service-box .text-size-18 {
+        padding: 0;
+        margin-bottom: 25px;
+    }
+    .service-section .services-data .service-box .more {
+        padding: 8px 26px;
+    }
+
+
+
+    /* plan */
+    .plan {
+        padding: 100px 0 90px;
+    }
+    .plan .content h6 {
+        margin-bottom: 10px;
+    }
+    .plan .content h2 {
+        margin-bottom: 50px;
+        padding: 0 180px;
+    }
+
+    .plan .facility li {
+        margin: 0 10px;
+    }
+    .plan .facility {
+        text-align: center;
+    }
+    
+    /* need */
+    .need-section {
+        padding: 100px 0;
+    }
+    .need-section .content h6 {
+        margin-bottom: 10px;
+    }
+    .need-section .content h2 {
+        margin-bottom: 15px;
+    }
+    .need-section .content p {
+        padding: 0 80px;
+        margin-bottom: 35px;
+    }
+    .need-section .img {
+        margin-bottom: 20px;
+    }
+    .need-section h3 {
+        margin-bottom: 10px;
+    }
+    .need-section .text-size-18 {
+        padding: 0;
+    }
+    .need-section .arrow1 {
+        left: 242px;
+        top: 32px;
+    }
+    .need-section .arrow1 img {
+        width: 145px;
+    }
+    .need-section .service2 {
+        padding-top: 100px;
+    }
+    .need-section .arrow2 {
+        right: 256px;
+        top: 56px;
+    }
+    need-section .arrow2 img {
+        width: 145px;
+    }
+
+
+
+
+
+
+
     /* ========== footer =========== */
     .footer-section {
         padding-bottom: 30px !important;
@@ -334,7 +467,14 @@ hr {
         font-size: 42px !important;
         line-height: 48px !important;
     }
-   
+    h2 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .text-size-18 {
+        font-size: 16px;
+        line-height: 22px;
+    }
 
     .navbar-collapse {
         overflow-x: visible !important;
@@ -390,6 +530,119 @@ hr {
         margin: 10px !important;
         padding: 0;
     }
+
+    .sub-banner {
+        padding: 60px 0 0px;
+    }
+    .sub-banner .banner-section .banner_content h1 {
+        margin-bottom: 10px;
+    }
+    .sub-banner .banner-section .banner_content p {
+        padding: 0 50px;
+        margin-bottom: 25px;
+    }
+
+
+
+    /* service */
+    .service-section .service-content h2 {
+        margin-bottom: 30px;
+    }
+    .service-section .services-data .service-box {
+        margin-bottom: 10px;
+        padding: 30px 8px;
+    }
+    .service-section .services-data .service-box .img {
+        margin-bottom: 15px;
+    }
+    .service-section .services-data .service-box .img img {
+        width: 60px;
+    }   
+
+    .service-section .services-data .service-box .text-size-18 {
+        padding: 0 20px;
+    }
+    .service-section .services-data .service-box .more {
+        padding: 8px 20px;
+    }
+    .service-section .services-data .mobile-image {
+        top: 70px;
+    }
+
+    /* plan */
+    .plan {
+        padding: 70px 0 60px;
+    }
+    .plan .content h2 {
+        margin-bottom: 30px;
+        padding: 0px 130px;
+    }
+    .plan .pricing {
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+    .plan .facility li:first-child {
+        margin-left: 28px;
+    }
+    .plan .facility li {
+        margin: 0 32px;
+    }
+    .plan .facility li:last-child {
+        margin-right: 0px;
+    }
+    .plan .facility .font1 {
+        margin-top: -2px;
+    }
+    .plan .facility li p {
+        padding-left: 6px;
+    }
+    .plan .facility .text4 {
+        margin-left: -5px;
+        margin-right: 34px;
+    }
+    .plan .facility .text5 {
+        margin-right: 74px;
+        margin-left: 25px;
+    }
+
+    /* need */
+    .need-section {
+        padding: 70px 0 30px;
+    }
+    .need-section .content p {
+        padding: 0 4px;
+        margin-bottom: 35px;
+    }
+    .need-section .service1 {
+        margin-bottom: 40px;
+    }
+    .need-section .img {
+        margin-bottom: 15px;
+    }
+    .need-section .img img {
+        width: 65px;
+    }
+    .need-section .text-size-18 {
+        padding: 0 40px;
+    }
+    .need-section .arrow1 {
+        display: none;
+    }
+    .need-section .service2 {
+        padding-top: 7px;
+    }
+    
+    .need-section .img2 {
+        margin-bottom: 10px;
+    }
+    .need-section .arrow2 {
+        display: none;
+    }    
+    .need-section .need-layer {
+        display: none;
+    }
+
+
     .footer-section {
         padding-bottom: 10px;
     }
@@ -441,6 +694,91 @@ hr {
     p {
         font-size: 16px !important;
         line-height: 22px !important;
+    }
+    .text-size-18 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .social_section{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+
+
+    .sub-banner {
+        background-image: url(https://html.designingmedia.com/repay/assets/images/sub-bannerbackground.png);
+        padding: 50px 0 0px;
+    }
+    .sub-banner .banner-section .banner_content h1 {
+        margin-bottom: 6px;
+    }
+    .sub-banner .banner-section .banner_content p {
+        margin-bottom: 20px;
+        padding: 0 10px;
+        
+    }
+    .sub-banner .box {
+        top: 18px;
+        padding: 4px 22px;
+    }
+
+
+
+    .service-section {
+        padding: 60px 0 50px;
+    }
+    .service-section .services-data .mobile-image {
+        top: 10px;
+        text-align: center;
+    }
+
+    /* plan */
+
+    .plan {
+        padding: 60px 0 50px;
+    }
+
+    .plan .content h2 {
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .plan .pricing {
+        padding: 15px 20px;
+    }
+    .plan .pricing .text1 {
+        margin-bottom: 20px !important;
+    }
+    .plan .facility li:first-child {
+        margin-left: 0;
+    }
+    .plan .facility li {
+        margin: 0 15px;
+    }
+    .plan .facility .text4 {
+        margin: 0 -14px;
+    }
+    .plan .facility .text5 {
+        margin-right: 72px;
+        margin-left: 42px;
+    }
+    .plan .facility li:last-child {
+        margin: 0;
+    }
+
+
+    .need-section {
+        padding: 60px 0 20px;
+    }
+    .need-section .content h2 {
+        margin-bottom: 10px;
+    }
+    .need-section .content p {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .need-section .text-size-18 {
+        padding: 0 76px;
     }
 
     /* footer */
@@ -510,5 +848,34 @@ hr {
     .footer-section .middle-portion .line {
         display: none;
     }    
-    
+    #carouselExampleControls {
+        padding: 0 70px;
+    }
+    .testimonial-section .review_content img {
+        width: 75px;
+    }
+    .plan .content h6 {
+        margin-bottom: 6px;
+    }
+    .plan .content h2 {
+        margin-bottom: 20px;
+    }
+    .plan .facility li {
+        margin: 0 16px 6px;
+    }
+    .plan .facility .text3 {
+        margin-right: 29px;
+        margin-left: 0;
+    }
+    .plan .facility .text4 {
+        margin-left: 0;
+        margin-right: 37px;
+    }
+    .plan .facility .text5 {
+        margin-right: 48px;
+        margin-left: -37px;
+    }
+    .need-section .text-size-18 {
+        padding: 0 25px;
+    }
 }

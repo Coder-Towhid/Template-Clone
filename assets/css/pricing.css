@@ -1,9 +1,10 @@
 .pricing-faq {
+   
     padding: 150px 0 115px;
 }
 
 .accordian-section {
-  
+    background-image: url(/assets/images/about-background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,6 +36,9 @@
     background: none;
     border: none;
 }
+.faq-section .accordian-inner .card-body {
+    padding: 8px 0 30px;
+}
 
 .faq-section .accordian-inner .accordion-card .btn {
     padding: 20px 0px;
@@ -46,4 +50,55 @@
     position: absolute;
     bottom: 0;
     z-index: -1;
+}
+
+@media only screen and (max-width: 1199px){
+    .pricing-faq {
+        padding: 100px 0 75px;
+    }
+
+    .faq-section .subheading h6 {
+        margin-bottom: 10px;
+    }
+    .faq-section .subheading h2{
+        margin-bottom: 40px;
+    }
+    .accordian-section .accordion-card {
+        margin-bottom: 26px;
+        padding: 0 22px;
+    }
+    .accordian-section .accordian-inner .accordion-card .btn {
+        padding: 15px 0px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+
+
+.pricing-faq {
+    padding: 70px 0 48px;
+}
+.faq-section .accordian-inner .accordion-card .btn {
+    padding: 16px 0px;
+}
+.faq-section .subheading h2 {
+    margin-bottom: -14px;
+}
+.faq-section .accordian-inner .card-body {
+    padding: 0px 0 20px;
+}
+}
+
+@media only screen and (max-width: 767px){
+.faq-section {
+    padding: 60px 0 35px;
+}
+.pricing-faq .subheading h2 {
+    margin-bottom: 30px;
+}
+}
+@media only screen and (max-width: 575px){
+.pricing-faq {
+    padding: 60px 0 45px;
+}
 }

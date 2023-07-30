@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/sass.css">
+    
    
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="./assets/css/service.css"/>
+    <link rel="stylesheet" href="assets/css/service.css"/>
 
+    <link rel="stylesheet" href="assets/css/service-responsive.css">
+
+    <link rel="stylesheet" href="assets/css/sass.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -29,13 +32,13 @@
     <div class="social_section">
         <div class="container">
             <div class="row">
-                <div class="col-md-6  col-sm-6 col-lg-6">
+                <div class="col-lg-6 col-md-6 sol-sm-12">
                     <div class="email">
                         <a href="#"><i class="fa-regular fa-envelope" style="color: #ffffff;"></i> support@epayeer.com</a>
                      </div>
                 </div>
 
-                <div class="col-md-6  col-sm-6 col-lg-6  text-end">
+                <div class="col-lg-6 col-md-6 sol-sm-12 d-md-block d-none text-end">
                     <div class="social_icons">
                         <div>
                             <span >Follow us on:</span>
@@ -53,7 +56,7 @@
     <!--======================= social section end ===========================-->
 
        <!--===================== menu_part start ============================-->
-       <nav class="navbar navbar-expand-sm menu_part">
+       <nav class="navbar navbar-expand-lg menu_part">
         <div class="container">
           <a class="navbar-brand" href="#">
             <div class="Logo">
@@ -65,11 +68,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item auto">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <li class="nav-item auto ">
+                <a class="nav-link active " aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item auto">
-                <a class="nav-link" href="#">Service</a>
+                <a class="nav-link" href="./service.html">Service</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="pricing.html">Pricing</a>
@@ -80,27 +83,27 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Page</a>
               </li>
-
-              <a href="signup.html"> 
+              <li class="nav-item"> <a href="signup.html"> 
                 <button class="button">
                   <i class="fa-solid fa-user-lock"></i>
                       Sign Up
               </button>
                </a>
-               
+    
+              </li>
+             
              
             </ul>
            
           </div>
         </div>
       </nav>
-
-
+    
        <!--======================== menu_part end =================================-->
 
        <!-- ====================== sub banner part start ========================= -->
 
-       <div class="sub-banner" style="background: url(https://html.designingmedia.com/repay/assets/images/sub-bannerbackground.png);">
+       <div class="sub-banner" >
         <section class="banner-section">
             <figure class="mb-0 bgshape">
                 <img src="https://html.designingmedia.com/repay/assets/images/homebanner-bgshape.png" alt="" class="img-fluid">
@@ -265,9 +268,9 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="benefit-wrapper">
-                        <figure class="circle mb-0">
+                        <!-- <figure class="circle mb-0">
                             <img src="https://html.designingmedia.com/repay/assets/images/image-2-bg.png" alt="">
-                        </figure>
+                        </figure> -->
                         <figure class="benefit-image mb-0">
                             <img src="https://html.designingmedia.com/repay/assets/images/benefit-image.png" alt="" class="img-fluid">
                         </figure>
@@ -397,10 +400,10 @@
                             </div>
                         </div>
 
-                        
+<!--                         
                         <figure class="mb-0 testimonial-circle">
                             <img src="https://html.designingmedia.com/repay/assets/images/testimonial-backimage.png" alt="">
-                        </figure>
+                        </figure> -->
                       
                     </div> 
                 </div>
@@ -529,6 +532,15 @@
   </div>
 
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 300,
+    duration: 1000
+  });
+</script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
 
   <!-- jQuery -->
   <script src="//code.jquery.com/jquery.js"></script>

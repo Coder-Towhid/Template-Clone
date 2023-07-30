@@ -196,8 +196,8 @@
     line-height: 12px;
     color: var(--epay-white-color);
     opacity: 1;
-    border: 1px solid #cceeed;
-    background-color: #cceeed;
+    border: 1px solid #7ea1e2;
+    background-color: #7ea1e2;
     padding: 8px 10px;
     font-weight: bold;
     border-radius: 8px;
@@ -212,11 +212,30 @@
     line-height: 12px;
     color: var(--epay-white-color);
     opacity: 1;
-    border: 1px solid #cceeed;
-    background-color: #cceeed;
+    border: 1px solid #7ea1e2;
+    background-color: #7ea1e2;
     padding: 8px 10px;
     font-weight: bold;
     border-radius: 8px;
     display: inline-block;
 }
 
+.testimonial-wrapper{
+
+    border-radius: 50%;
+    background: white;
+    width: 450px;
+   
+    height: 450px;
+}
+
+
+#carouselExampleControls .carousel-control-prev:hover, #carouselExampleControls .carousel-control-next:hover {
+    background-color: var(--epay-main-color);
+    color: var(--epay-white-color);
+}
+
+#carouselExampleControls .carousel-control-prev:hover, #carouselExampleControls .carousel-control-next:hover {
+    background-color: var(--epay-main-color);
+    color: var(--epay-white-color);
+}

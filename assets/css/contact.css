@@ -76,3 +76,58 @@
     height: 600px;
     border-radius: 5px;
 }
+
+
+@media only screen and (max-width: 1199px){
+
+    .message-section {
+        padding: 100px 0;
+    }
+    .message-section .content h6 {
+        margin-bottom: 10px;
+    }
+    .message-section .content h2 {
+        margin-bottom: 20px;
+    }
+    .message-section .message_content h4 {
+        margin-bottom: 10px;
+    }
+    .message-section .message_content input {
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    .message-section .map {
+        padding-top: 30px;
+    }
+    .message-section .map iframe {
+        height: 510px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .message-section {
+        padding: 70px 0;
+    }
+    .message-section .message_content input {
+        padding: 10px;
+    }
+    .message-section .message_content textarea {
+        padding: 10px;
+        height: 100px;
+    }
+    .message-section .map iframe {
+        height: 418px;
+    }
+    
+    
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+
+    .message-section {
+        padding: 60px 0 ;
+    }
+}

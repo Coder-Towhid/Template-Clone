@@ -1,0 +1,282 @@
+@media only screen and (max-width: 1199px){
+    .service-section {
+        padding: 100px 0 74px;
+    }
+
+    .payment-section {
+        padding: 100px 0 220px;
+    }
+    .payment-section .content h6 {
+        margin-bottom: 10px;
+    }
+    .payment-section .content h2 {
+        margin-bottom: 10px;
+        padding: 0 145px;
+    }
+    .payment-section .content p {
+        padding: 0 100px;
+        margin-bottom: 50px;
+    }
+
+    .videosection {
+        margin-top: -212px;
+    }
+
+    .benefit-section {
+        padding: 100px 0 40px;
+    }
+    .benefit-section .subheading h6 {
+        margin-bottom: 10px;
+    }
+    .benefit-section .subheading h2 {
+        padding: 0 215px;
+        margin-bottom: 90px;
+    }
+    .benefit-section .benefit-wrapper .circle {
+        left: -17px;
+        top: 305px;
+    }
+    .benefit-section .benefit-wrapper .circle img {
+        width: 600px;
+    }
+    .benefit-section .benefit-wrapper .benefit-image {
+        left: 50px;
+        top: -92px;
+    }
+    .benefit-section .benefit-wrapper .benefit-image img {
+        width: 350px;
+    }
+
+    .benefit-section .benefit-content .icon1 img {
+        width: 70px;
+    }
+    .benefit-section .benefit-content h4 {
+        margin-bottom: 14px;
+    }
+
+    .testimonial-section {
+        padding: 100px 0 130px;
+    }
+    .testimonial-section .content .quote-icon {
+        margin-bottom: 24px;
+    }
+    .testimonial-section .quote-icon img {
+        width: 90px;
+    }
+    .testimonial-section .content h6 {
+        margin-bottom: 10px;
+    }
+
+    .testimonial-section .content h2 {
+        margin-bottom: 16px;
+    }
+    .testimonial-section .content p {
+        margin-bottom: 24px;
+    }
+    .testimonial-section .content .button-text {
+        padding: 12px 22px;
+    }
+    #carouselExampleControls {
+        padding: 40px 74px 30px 100px;
+    }
+    .testimonial-section .review_content img {
+        width: 90px;
+        margin-bottom: 15px;
+    }
+    .testimonial-section .testimonial-circle {
+        left: 600px;
+        top: 100px;
+    
+    }
+    .testimonial-section .testimonial-circle img {
+        width: 440px;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px){
+
+   
+
+    .service {
+        padding: 70px 0 45px;
+    }
+    .service .services-data .service-box {
+        margin-bottom: 22px;
+    }
+
+    .payment-section {
+        padding: 70px 0 150px;
+    }
+    .payment-section .content h2 {
+        margin-bottom: 10px;
+        padding: 0 100px;
+    }
+    .payment-section .content p {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .videosection {
+        margin-top: -155px;
+    }
+    .benefit-section {
+        padding: 70px 0 40px;
+    }
+    .benefit-section .subheading h2 {
+        padding: 0 150px;
+        margin-bottom: 65px;
+    }
+    .benefit-section .benefit-wrapper .benefit-image {
+        
+    left: 24px;
+    top: 3px;
+    }
+    .benefit-section .benefit-wrapper .benefit-image img {
+        width: 280px;
+    }
+    .benefit-section .benefit-content .icon1 {
+        margin-bottom: 17px;
+    }
+    .benefit-section .benefit-content h4 {
+        margin-bottom: 8px;
+    }
+    .testimonial-section .content .quote-icon {
+        margin-bottom: 20px;
+    }
+    .benefit-section .benefit-content .icon {
+        margin-bottom: 12px;
+    }
+    .benefit-section .benefit-content .icon1 {
+        margin-bottom: 17px;
+    }
+    .testimonial-section .quote-icon img {
+        width: 80px;
+    }
+    .testimonial-section .content h2 {
+        margin-bottom: 10px;
+    }
+    .testimonial-section .content p {
+        margin-bottom: 20px;
+    }
+
+    .testimonial-section .content .button-text {
+        padding: 10px 16px;
+    }
+    #carouselExampleControls {
+        padding: 40px 30px 30px 26px;
+    }
+    .testimonial-section .review_content {
+        padding: 15px 0 35px 0;
+    }
+    .testimonial-section .review_content img {
+        width: 85px;
+    }
+    /* .testimonial-wrapper{
+
+        width: 400px;
+       
+        height: 400px;
+    } */
+}
+
+@media only screen and (max-width: 767px){
+    .service-section {
+        padding: 60px 0 50px;
+    }
+    .payment-section {
+        padding: 60px 0 130px;
+    }
+    .payment-section .content h2 {
+        padding: 0 74px;
+    }
+    .payment-section .content p {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .videosection {
+        margin-top: -115px;
+    }
+    .benefit-section {
+        padding: 60px 0 30px;
+    }
+    .benefit-section .subheading h2 {
+        margin-bottom: 55px;
+        padding: 0 90px;
+    }
+    .benefit-section .benefit-wrapper {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .benefit-section .benefit-wrapper .benefit-image {
+        left: 8px;
+    }
+    .benefit-section .benefit-wrapper .benefit-image img {
+        width: 280px;
+    }
+
+    .testimonial-section {
+        padding: 60px 0 80px;
+    }
+    .testimonial-section .content {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .testimonial-section .testimonial-wrapper {
+        margin: auto;
+    border-radius: 50%;
+    background: white;
+    height: 350px;
+    width: 350px;
+        text-align: center;
+    }
+    
+    .testimonial-section .review_content {
+        padding: 0px 0 30px 0;
+    }
+    .testimonial-section .review_content .text-size-18 {
+        margin-bottom: 6px;
+    }
+    
+}
+
+@media only screen and (max-width: 575px){
+
+    .payment-section {
+        padding: 60px 0 74px;
+    }
+    .payment-section .content h2 {
+        padding: 0;
+    }
+    .videosection {
+        margin-top: -74px;
+    }
+
+    .benefit-section .subheading h2 {
+        padding: 0 20px;
+    }
+    .benefit-section .benefit-content .text-size-16 {
+        margin-bottom: 28px;
+        padding: 0 30px;
+    }
+    .testimonial-section {
+        padding: 60px 0 90px;
+    }
+    .testimonial-section .content {
+        margin-bottom: 80px;
+    }
+    #carouselExampleControls {
+        padding: 40px 60px 30px 60px;
+    }
+    .testimonial-section .testimonial-wrapper {
+    
+    
+    height: 300px;
+    width: 300px;
+       
+    }
+    #carouselExampleControls {
+        padding: 10px 20px;
+    }
+}
