@@ -2,12 +2,17 @@
 .social_section{
     padding: 10px 0;
     font-family: var(--second-font);
-    background-color: var(--epay-secondary-color);
+    background-color: var(--epay-main-color);
     color: var(--epay-white-color);
 }
 
 .social_icons  i{
+    cursor: pointer;
     margin-right: 5px;
+}
+ .social_icons i:hover {
+    color: var(--epay-custom-color);
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -129,7 +134,7 @@
 }
 .bannermain .banner-wrapper .banner-image img {
     margin-top: -150px;
-    padding-left: 141px;
+    padding-left: 40px;
 }
 .bannermain .banner-wrapper .content {
     position: absolute;
@@ -203,6 +208,9 @@
     padding-left: 25px;
     width: 77%;
 }
+.what-we-do .img:hover {
+    transform: translateY(-5px);
+}
 
 .what-we-do .account:hover {
     background-color: var( --epay-main-color);
@@ -213,11 +221,15 @@
 .what-we-do .account:hover h3 {
     color: var(--epay-white-color);
 }
-
+.accounticon img{
+    padding: 2px;
+    border-radius: 50%;
+    background-color: white;
+}
 /*======================== About Epaayer_part start =====================*/
 
 .about-epayeer{
-    background-image: url(https://html.designingmedia.com/repay/assets/images/about-background.png);
+    background-image: url(/assets/images/about-background\ .png);
     
     background-position: center;
     background-repeat: no-repeat;
@@ -270,6 +282,9 @@
     color: var(--epay-orange-color);
     display: block;
     margin-bottom: 10px;
+}
+.about-epayeer .about-content .right-lower .icon:hover {
+    transform: translateY(-5px);
 }
 
 /* ================================== service part start =========================== */
@@ -335,7 +350,9 @@
     background-color: var(--epay-orange-color);
     color: var(--epay-white-color);
 }
-
+.service-section .services-data .service-box .img:hover {
+    transform: translateY(-5px);
+}
 
 
 
@@ -388,6 +405,9 @@
     right: -16px;
     top: -21px;
 
+}
+.manage-section .manage-content .icon:hover {
+    transform: translateY(-5px);
 }
 .manage-section .manage-layer {
     position: absolute;
@@ -536,7 +556,9 @@
     padding: 0px 20px;
     margin-bottom: 20px;
 }
-
+.need-section .img:hover {
+    transform: translateY(-5px);
+}
 
 .need-section .service1 .btn {
     font-size: 16px;

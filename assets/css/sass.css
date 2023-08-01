@@ -203,7 +203,7 @@ hr {
   
 
 .sub-banner {
-    background: url(https://html.designingmedia.com/repay/assets/images/sub-bannerbackground.png);
+    background: url(/assets/images/sub_banner\ .png);
     background-color: transparent;
     background-position: center;
     height: auto;
@@ -707,7 +707,7 @@ hr {
 
 
     .sub-banner {
-        background-image: url(https://html.designingmedia.com/repay/assets/images/sub-bannerbackground.png);
+        
         padding: 50px 0 0px;
     }
     .sub-banner .banner-section .banner_content h1 {
@@ -848,9 +848,7 @@ hr {
     .footer-section .middle-portion .line {
         display: none;
     }    
-    #carouselExampleControls {
-        padding: 0 70px;
-    }
+   
     .testimonial-section .review_content img {
         width: 75px;
     }

@@ -103,6 +103,10 @@
     transition: all 0.3s ease-in-out;
 }
 
+.testimonial-section .content .quote-icon:hover {
+    transform: translateY(-5px);
+}
+
 .testimonial-section .content h6 {
     margin-bottom: 20px;
 }
