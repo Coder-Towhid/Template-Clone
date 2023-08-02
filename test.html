@@ -8,12 +8,14 @@
     
     <!----======== CSS ======== -->
     
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./assets/css/test.css">
 
      
     <!----===== Iconscout CSS ===== -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css" />
+  
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
     <title>Admin Dashboard Panel</title>
 </head>
 <body>
@@ -96,7 +98,7 @@
                         <span>></span>
                     </a>
                     <a href="" class="sub-menu-link">
-                        <i class="uil uil-map-marker-question"></i>
+                        <i class="uil uil-info"></i>
                         <p>Help</p>
                         <span>></span>
                     </a>
@@ -112,12 +114,14 @@
         </div>
 
         <div class="dash-content">
+            <div>
+
+            
             <div class="overview">
                 <div class="title">
                     <i class="uil uil-tachometer-fast-alt"></i>
                     <span class="text">Dashboard</span>
                 </div>
-
                 <div class="boxes">
                     <div class="box box1">
                         <i class="uil uil-thumbs-up"></i>
@@ -204,9 +208,72 @@
                     </div>
                 </div>
             </div>
-        
+        </div>
+        <div style="overflow-x: auto;">
+            <table>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+              </tr>
+              <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+              </tr>
+              <tr>
+                <td>Adam</td>
+                <td>Johnson</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+              </tr>
+            </table>
+          </div>
+          
+
+        </div>
     </section>
 
-    <script src="script.js"></script>
+    <script src="test.js"></script>
 </body>
 </html>

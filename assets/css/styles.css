@@ -360,7 +360,7 @@
 
 .manage-section {
  
-    background: url(https://html.designingmedia.com/repay/assets/images/manage-background.png);
+    background-image: url(/assets/images/about-background\ .png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -505,7 +505,7 @@
 
 .need-section {
    
-    background: url(https://html.designingmedia.com/repay/assets/images/about-background.png);
+    background-image: url(/assets/images/about-background\ .png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
